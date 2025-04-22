@@ -1,0 +1,18 @@
+[
+    {
+      "question": "Who in AIResearchTeam works on DeepLearning?",
+      "contexts": [
+        "Alice Johnson (Data Scientist, Engineering), Bob Smith (ML Engineer, Engineering)"
+      ],
+      "answer": "Alice Johnson and Bob Smith work on DeepLearning in AIResearchTeam.",
+      "ground_truth": "Alice Johnson, Bob Smith"
+    },
+    {
+      "question": "Which employees in DataTeam have Python skills?",
+      "contexts": [
+        "Carol White (Data Analyst, Data Science)"
+      ],
+      "answer": "Carol White has Python skills in DataTeam.",
+      "ground_truth": "Carol White"
+    }
+  ]

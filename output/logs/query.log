@@ -1,0 +1,1344 @@
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:root:Querying KG for team=Team_1, skill=NLP
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:root:Initializing LLM
+ERROR:root:Failed to load LLM: Using `low_cpu_mem_usage=True` or a `device_map` requires Accelerate: `pip install accelerate`
+INFO:root:Querying KG for team=Team_1, skill=NLP
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:root:Initializing LLM
+ERROR:root:Failed to load LLM: bitsandbytes
+INFO:root:Querying KG for team=Team_1, skill=NLP
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:root:Initializing LLM
+ERROR:root:Failed to load LLM: No GPU found. A GPU is needed for quantization.
+INFO:root:Querying KG for team=Team_1, skill=NLP
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:root:Initializing LLM
+INFO:root:Querying KG for team=Team_1, skill=NLP
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:root:Initializing LLM
+WARNING:huggingface_hub.file_download:Error while downloading from https://cdn-lfs-us-1.hf.co/repos/0b/66/0b662aa2d9932cfa2780256fe6ac653680ac88c327ccf3bff04d53efdc120edb/7fbcdefa72edf7527bf5da40535b57d9f5bd3d16829b94a9d25d2b457df62e84?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00001-of-00002.safetensors%3B+filename%3D%22model-00001-of-00002.safetensors%22%3B&Expires=1745260358&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0NTI2MDM1OH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzBiLzY2LzBiNjYyYWEyZDk5MzJjZmEyNzgwMjU2ZmU2YWM2NTM2ODBhYzg4YzMyN2NjZjNiZmYwNGQ1M2VmZGMxMjBlZGIvN2ZiY2RlZmE3MmVkZjc1MjdiZjVkYTQwNTM1YjU3ZDlmNWJkM2QxNjgyOWI5NGE5ZDI1ZDJiNDU3ZGY2MmU4ND9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=SMW9At2pDlGf5O704aBiqtrkztQFUwnCM33V8-dcN8rRDLuy6qFinPdglhBzAQf-%7E6EP41NFSoe4ewd5lJLzk7UZzXN%7EQw-EKzpFn7xMcoLJa9D%7Euckgq-yjyzB3xDhhiEjeJsI7u3pYLSzMEO9HTWoimn0kwrCytwuQ7Z%7EeSPNSNu9qkJcqYmitfAkRTdjqIUSCTPbdPauX3C0nk6UhncCCltDzTdc-Us00NA%7EtS5Hl-o7KHxqYhu3XjV5LlX6wubZD3xXD4UYCPmqU7JWCPmuaF-893qdM%7EWzUk8gwjcOw-MPxsbrk571O6LtpWocksIr36wVNxmmAHpm%7ETEu2hw__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
+Trying to resume download...
+INFO:root:Querying KG for team=Team_1, skill=NLP
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: who is working on data
+INFO:root:Question: who is working on data, Answer: I don't have any information about a specific person or project named "Person_265" (Data Scientist) that would indicate they are currently working on data. My training data only goes up to 2023, and I don't have real-time access to current projects or individuals. If you could provide more context or clarify who Person_265 is, I'd be happy to try and help further.
+INFO:root:Querying KG for team=Team_1, skill=NLP
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in Team_1 works on NLP?
+INFO:root:Question: Who in Team_1 works on NLP?, Answer: The person who works on Natural Language Processing (NLP) is Data Scientist_299.
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.104:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2025 23:45:36] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2025 23:45:36] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2025 23:45:36] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2025 23:45:36] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=LLhWXFsi0Us0u13tY1DB HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2025 23:45:36] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.104:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2025 23:48:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2025 23:48:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Received query: question=Who in Team_1 works on NLP?, team=Team_1, skill=NLP
+INFO:root:Querying KG for team=Team_1, skill=NLP
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in Team_1 works on NLP?
+INFO:root:Question: Who in Team_1 works on NLP?, Answer: Team_1 is likely a data science team, and based on the topic of Natural Language Processing (NLP), I would say that Person_165 (Data Analyst) or Person_166 (Machine Learning Engineer) might work on NLP tasks within their role. However, without more specific information about Team_1's structure and roles, it's difficult to provide a definitive answer.
+
+If you have any additional context or details about the team, I'd be happy to try and provide a more accurate response.
+INFO:root:Generated answer: Team_1 is likely a data science team, and based on the topic of Natural Language Processing (NLP), I would say that Person_165 (Data Analyst) or Person_166 (Machine Learning Engineer) might work on NLP tasks within their role. However, without more specific information about Team_1's structure and roles, it's difficult to provide a definitive answer.
+
+If you have any additional context or details about the team, I'd be happy to try and provide a more accurate response.
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2025 23:49:09] "POST / HTTP/1.1" 200 -
+INFO:root:Received query: question=which person is an analyst and working in team_12, team=Team_12, skill=analyst
+INFO:root:Querying KG for team=Team_12, skill=analyst
+INFO:root:Query: team=Team_12, skill=analyst, results=[]
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: which person is an analyst and working in team_12
+INFO:root:Question: which person is an analyst and working in team_12, Answer: Based on the context, I would assume that "Team_12" refers to a specific project or team at work. Since I don't have more information about Team_12 or who might be the person being referred to as an analyst, I'll provide a general answer.
+
+If you could provide more context or details about Team_12 and who is the analyst working with them, I would be happy to try and give a more specific answer.
+INFO:root:Generated answer: Based on the context, I would assume that "Team_12" refers to a specific project or team at work. Since I don't have more information about Team_12 or who might be the person being referred to as an analyst, I'll provide a general answer.
+
+If you could provide more context or details about Team_12 and who is the analyst working with them, I would be happy to try and give a more specific answer.
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2025 23:51:16] "POST / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Received query: question=which person is an analyst and working in team_12, team=Team_12, skill=analyst
+INFO:root:Querying KG for team=Team_12, skill=analyst
+INFO:root:Query: team=Team_12, skill=analyst, results=[]
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: which person is an analyst and working in team_12
+INFO:root:Question: which person is an analyst and working in team_12, Answer: I can't provide personal information about specific individuals unless it is publicly available or they have shared their contact information through a public channel. If you are looking for a specific person who works on a project called "team_12", I would need more context or details to give you an accurate answer. Is there anything else I can help you with?
+INFO:root:Generated answer: I can't provide personal information about specific individuals unless it is publicly available or they have shared their contact information through a public channel. If you are looking for a specific person who works on a project called "team_12", I would need more context or details to give you an accurate answer. Is there anything else I can help you with?
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:36:05] "POST / HTTP/1.1" 200 -
+INFO:root:Received query: question=Who in Team_1 works on NLP, team= Team_1, skill=NLP
+INFO:root:Querying KG for team= Team_1, skill=NLP
+INFO:root:Query: team= Team_1, skill=NLP, results=[]
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in Team_1 works on NLP
+INFO:root:Question: Who in Team_1 works on NLP, Answer: Team_1's NLP (Natural Language Processing) team likely consists of experts who specialize in developing and implementing algorithms, models, and techniques to analyze, understand, and generate human language.
+INFO:root:Generated answer: Team_1's NLP (Natural Language Processing) team likely consists of experts who specialize in developing and implementing algorithms, models, and techniques to analyze, understand, and generate human language.
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:36:25] "POST / HTTP/1.1" 200 -
+INFO:root:Received query: question=Who in Team_1 works on NLP, team= Team_1, skill=NLP
+INFO:root:Querying KG for team= Team_1, skill=NLP
+INFO:root:Query: team= Team_1, skill=NLP, results=[]
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in Team_1 works on NLP
+INFO:root:Question: Who in Team_1 works on NLP, Answer: I don't have enough information to determine who specifically works on Natural Language Processing (NLP) within the Team_1. Could you please provide more context or clarify which specific individuals work on NLP? This would help me give a more accurate answer.
+INFO:root:Generated answer: I don't have enough information to determine who specifically works on Natural Language Processing (NLP) within the Team_1. Could you please provide more context or clarify which specific individuals work on NLP? This would help me give a more accurate answer.
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:38:59] "POST / HTTP/1.1" 200 -
+INFO:root:Received query: question=Who in Team_1 works on NLP?, team=Team_1, skill=NLP
+INFO:root:Querying KG for team=Team_1, skill=NLP
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in Team_1 works on NLP?
+INFO:root:Question: Who in Team_1 works on NLP?, Answer: Person_265 (Data Scientist) is working on Natural Language Processing (NLP).
+INFO:root:Generated answer: Person_265 (Data Scientist) is working on Natural Language Processing (NLP).
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:39:18] "POST / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Received query: question=Who in Team_1 works on NLP?, team=Team_1, skill=NLP
+INFO:root:Querying KG for team=Team_1, skill=NLP
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in Team_1 works on NLP?
+INFO:root:Question: Who in Team_1 works on NLP?, Answer: Person_265 (Data Scientist) is not directly involved with Team_1. They seem to be providing general information about their role as a Data Scientist. However, if I had to make an educated guess based on the context of working on NLP for Team_1, I would say that Person_265 works on Natural Language Processing (NLP) within Team_1.
+INFO:root:Generated answer: Person_265 (Data Scientist) is not directly involved with Team_1. They seem to be providing general information about their role as a Data Scientist. However, if I had to make an educated guess based on the context of working on NLP for Team_1, I would say that Person_265 works on Natural Language Processing (NLP) within Team_1.
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:40:36] "POST / HTTP/1.1" 200 -
+INFO:root:Received query: question=Who in Team_1 works on NLP?, team=Team_2, skill=NLP
+INFO:root:Querying KG for team=Team_2, skill=NLP
+INFO:root:Query: team=Team_2, skill=NLP, results=[{'name': 'Person_421', 'role': 'Analyst'}]
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in Team_1 works on NLP?
+INFO:root:Question: Who in Team_1 works on NLP?, Answer: Team_1 consists of several analysts, but I can tell you that the person who works on Natural Language Processing (NLP) is Person_234 (Engineer). They are responsible for developing and implementing algorithms to analyze and understand human language.
+INFO:root:Generated answer: Team_1 consists of several analysts, but I can tell you that the person who works on Natural Language Processing (NLP) is Person_234 (Engineer). They are responsible for developing and implementing algorithms to analyze and understand human language.
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:41:00] "POST / HTTP/1.1" 200 -
+INFO:root:Received query: question=Who in Team_1 works on NLP?, team=Team_2, skill=NLP
+INFO:root:Querying KG for team=Team_2, skill=NLP
+INFO:root:Query: team=Team_2, skill=NLP, results=[{'name': 'Person_421', 'role': 'Analyst'}]
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in Team_1 works on NLP?
+INFO:root:Question: Who in Team_1 works on NLP?, Answer: Team_1's NLP team consists of Person_421, Analyst.
+INFO:root:Generated answer: Team_1's NLP team consists of Person_421, Analyst.
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:42:33] "POST / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Checking visualization: static/kg_viz.html exists=False
+INFO:root:Received query: question=Who in Team_1 works on NLP?, team=Team_2, skill=NLP
+INFO:root:Querying KG for team=Team_2, skill=NLP
+INFO:root:Query: team=Team_2, skill=NLP, results=[{'name': 'Person_421', 'role': 'Analyst'}]
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in Team_1 works on NLP?
+INFO:root:Question: Who in Team_1 works on NLP?, Answer: Team_1 is composed of several researchers working on Natural Language Processing (NLP). I am not sure who specifically works on NLP.
+INFO:root:Generated answer: Team_1 is composed of several researchers working on Natural Language Processing (NLP). I am not sure who specifically works on NLP.
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:43:38] "POST / HTTP/1.1" 200 -
+INFO:root:Checking visualization: static/kg_viz.html exists=False
+INFO:root:Received query: question=Who in Team_1 works on NLP, team=Team_1, skill=NLP
+INFO:root:Querying KG for team=Team_1, skill=NLP
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in Team_1 works on NLP
+INFO:root:Question: Who in Team_1 works on NLP, Answer: Person_265 (Data Scientist): I work on Natural Language Processing (NLP) within Team_1. We focus on developing and applying machine learning algorithms to analyze and understand human language, enabling more accurate and efficient processing of large datasets.
+INFO:root:Generated answer: Person_265 (Data Scientist): I work on Natural Language Processing (NLP) within Team_1. We focus on developing and applying machine learning algorithms to analyze and understand human language, enabling more accurate and efficient processing of large datasets.
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:44:01] "POST / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Checking visualization: src/static/kg_viz.html exists=True
+INFO:root:Received query: question=Who in Team_1 works on NLP, team=Team_1, skill=NLP
+INFO:root:Querying KG for team=Team_1, skill=NLP
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in Team_1 works on NLP
+INFO:root:Question: Who in Team_1 works on NLP, Answer: Team_1 has a Data Scientist named Person_265 who is responsible for working on Natural Language Processing (NLP).
+INFO:root:Generated answer: Team_1 has a Data Scientist named Person_265 who is responsible for working on Natural Language Processing (NLP).
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:45:45] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:45:45] "[33mGET /static/static/kg_viz.html HTTP/1.1[0m" 404 -
+INFO:root:Starting Flask app
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.104:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Checking visualization: src/static/kg_viz.html exists=True
+INFO:root:Received query: question=Who in Team_1 works on NLP, team=Team_1, skill=NLP
+INFO:root:Querying KG for team=Team_1, skill=NLP
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in Team_1 works on NLP
+INFO:root:Question: Who in Team_1 works on NLP, Answer: I don't have enough information about Team_1 or its members. Could you please provide more context or details about who Person_265 is working with? That way, I can try to better assist you and give a more accurate answer.
+INFO:root:Generated answer: I don't have enough information about Team_1 or its members. Could you please provide more context or details about who Person_265 is working with? That way, I can try to better assist you and give a more accurate answer.
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:46:57] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:46:58] "[33mGET /static/static/kg_viz.html HTTP/1.1[0m" 404 -
+INFO:root:Checking visualization: src/static/kg_viz.html exists=True
+INFO:root:Received query: question=Who in Team_1 works on NLP?, team=Team_1, skill=NLP
+INFO:root:Querying KG for team=Team_1, skill=NLP
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in Team_1 works on NLP?
+INFO:root:Question: Who in Team_1 works on NLP?, Answer: Person_265 (Data Scientist): I don't work directly with Team_1. However, our team has a few data scientists who work on natural language processing (NLP) tasks. One of them is actually Person_314 (Software Engineer). They're responsible for building and maintaining the NLP models used in our applications.
+INFO:root:Generated answer: Person_265 (Data Scientist): I don't work directly with Team_1. However, our team has a few data scientists who work on natural language processing (NLP) tasks. One of them is actually Person_314 (Software Engineer). They're responsible for building and maintaining the NLP models used in our applications.
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:47:12] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:47:12] "[33mGET /static/static/kg_viz.html HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Checking visualization: static/kg_viz.html exists=False
+INFO:root:Received query: question=Who in Team_1 works on NLP?, team=Team_1, skill=NLP
+INFO:root:Querying KG for team=Team_1, skill=NLP
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in Team_1 works on NLP?
+INFO:root:Question: Who in Team_1 works on NLP?, Answer: Team_1 includes Data Scientist_245 and Assistant_4. However, I couldn't find any information about "Person_265" or "Data Scientist_245".
+INFO:root:Generated answer: Team_1 includes Data Scientist_245 and Assistant_4. However, I couldn't find any information about "Person_265" or "Data Scientist_245".
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:47:49] "POST / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Checking visualization: src/kg_viz.html exists=False
+INFO:root:Received query: question=Who in Team_1 works on NLP?, team=Team_1, skill=NLP
+INFO:root:Querying KG for team=Team_1, skill=NLP
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in Team_1 works on NLP?
+INFO:root:Question: Who in Team_1 works on NLP?, Answer: Person_265 (Data Scientist): I'm not sure who specifically works on NLP within Team_1. As a data scientist focused on machine learning and AI, my expertise is more geared towards developing models and analyzing data rather than diving into natural language processing (NLP) directly. However, if you'd like to know more about the team's specific projects or if there are any experts working on NLP within Team_1, I can try to help with that.
+INFO:root:Generated answer: Person_265 (Data Scientist): I'm not sure who specifically works on NLP within Team_1. As a data scientist focused on machine learning and AI, my expertise is more geared towards developing models and analyzing data rather than diving into natural language processing (NLP) directly. However, if you'd like to know more about the team's specific projects or if there are any experts working on NLP within Team_1, I can try to help with that.
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:48:57] "POST / HTTP/1.1" 200 -
+INFO:root:Checking visualization: src/kg_viz.html exists=False
+INFO:root:Received query: question=Who in Team_1 works on NLP?, team=Team_1, skill=NLP
+INFO:root:Querying KG for team=Team_1, skill=NLP
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in Team_1 works on NLP?
+INFO:root:Question: Who in Team_1 works on NLP?, Answer: Person_265 (Data Scientist): Ah, I'm familiar with Team_1 and our team's projects. Based on my knowledge, I believe the person working on Natural Language Processing (NLP) is Person_345 (Software Engineer). They're responsible for developing the algorithms and models that enable NLP tasks, such as text analysis, sentiment analysis, and language modeling. Does that sound correct to you?
+INFO:root:Generated answer: Person_265 (Data Scientist): Ah, I'm familiar with Team_1 and our team's projects. Based on my knowledge, I believe the person working on Natural Language Processing (NLP) is Person_345 (Software Engineer). They're responsible for developing the algorithms and models that enable NLP tasks, such as text analysis, sentiment analysis, and language modeling. Does that sound correct to you?
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:49:21] "POST / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.104:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Checking visualization: GraphRAGDemo/src/static/kg_viz.html exists=False
+INFO:root:Received query: question=Who in Team_1 works on NLP?, team=Team_1, skill=NLP
+INFO:root:Querying KG for team=Team_1, skill=NLP
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in Team_1 works on NLP?
+INFO:root:Question: Who in Team_1 works on NLP?, Answer: Person_265 (Data Scientist): I do not have information about a team called Team_1 or specific individuals working on Natural Language Processing (NLP) within that team. My training data does not include this context, and I don't have the ability to access or recall information about individual teams or employees without more specific details.
+INFO:root:Generated answer: Person_265 (Data Scientist): I do not have information about a team called Team_1 or specific individuals working on Natural Language Processing (NLP) within that team. My training data does not include this context, and I don't have the ability to access or recall information about individual teams or employees without more specific details.
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:54:11] "POST / HTTP/1.1" 200 -
+INFO:root:Checking visualization: GraphRAGDemo/src/static/kg_viz.html exists=False
+INFO:root:Received query: question=Who in Team_1 works on NLP?, team=Team_1, skill=NLP
+INFO:root:Querying KG for team=Team_1, skill=NLP
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in Team_1 works on NLP?
+INFO:root:Question: Who in Team_1 works on NLP?, Answer: I don't have any information about a team called "Team_1" or its members. I can tell you that if someone is working on Natural Language Processing (NLP) within a team, it's likely they are part of a Data Science team, given the context of Person_265 being a Data Scientist.
+INFO:root:Generated answer: I don't have any information about a team called "Team_1" or its members. I can tell you that if someone is working on Natural Language Processing (NLP) within a team, it's likely they are part of a Data Science team, given the context of Person_265 being a Data Scientist.
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:54:27] "POST / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Checking visualization: src/static/kg_viz.html exists=True
+INFO:root:Received query: question=Who in Team_1 works on NLP?, team=Team_1, skill=NLP
+INFO:root:Querying KG for team=Team_1, skill=NLP
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in Team_1 works on NLP?
+INFO:root:Question: Who in Team_1 works on NLP?, Answer: Team_1 is a data science team, and according to my knowledge, one of the team members who works on Natural Language Processing (NLP) is Data Scientist_145.
+INFO:root:Generated answer: Team_1 is a data science team, and according to my knowledge, one of the team members who works on Natural Language Processing (NLP) is Data Scientist_145.
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:54:57] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:54:57] "GET /static/kg_viz.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:54:57] "[33mGET /static/lib/bindings/utils.js HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Checking visualization: src/static/kg_viz.html exists=True
+INFO:root:Received query: question=Who in Team_1 works on NLP?, team=Team_1, skill=NLP
+INFO:root:Querying KG for team=Team_1, skill=NLP
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in Team_1 works on NLP?
+INFO:root:Question: Who in Team_1 works on NLP?, Answer: Person_265 (Data Scientist) answered that Emily Chen is one of the individuals who work on Natural Language Processing (NLP) within Team_1.
+INFO:root:Generated answer: Person_265 (Data Scientist) answered that Emily Chen is one of the individuals who work on Natural Language Processing (NLP) within Team_1.
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:56:01] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:56:01] "[36mGET /static/kg_viz.html HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:56:01] "[33mGET /static/lib/bindings/utils.js HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Checking visualization: src/static/kg_viz.html exists=True
+INFO:root:Received query: question=Who in Team_1 works on NLP?, team=Team_1, skill=NLP
+INFO:root:Querying KG for team=Team_1, skill=NLP
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in Team_1 works on NLP?
+INFO:root:Question: Who in Team_1 works on NLP?, Answer: Person_265 (Data Scientist) is working with Team_1 on Natural Language Processing (NLP).
+INFO:root:Generated answer: Person_265 (Data Scientist) is working with Team_1 on Natural Language Processing (NLP).
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:56:14] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:56:15] "[36mGET /static/kg_viz.html HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:56:15] "[33mGET /static/lib/bindings/utils.js HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Checking visualization: src/static/kg_viz.html exists=True
+INFO:root:Received query: question=Who in Team_1 works on NLP?, team=Team_1, skill=NLP
+INFO:root:Querying KG for team=Team_1, skill=NLP
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in Team_1 works on NLP?
+INFO:root:Question: Who in Team_1 works on NLP?, Answer: Person_265 (Data Scientist) is working with Team_1 on Natural Language Processing (NLP).
+INFO:root:Generated answer: Person_265 (Data Scientist) is working with Team_1 on Natural Language Processing (NLP).
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:56:56] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:56:56] "[36mGET /static/kg_viz.html HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:56:56] "[33mGET /static/lib/bindings/utils.js HTTP/1.1[0m" 404 -
+INFO:root:Checking visualization: src/static/kg_viz.html exists=True
+INFO:root:Received query: question=Who in Team_1 works on NLP?, team=Team_1, skill=NLP
+INFO:root:Querying KG for team=Team_1, skill=NLP
+INFO:root:Query: team=Team_1, skill=NLP, results=[{'name': 'Person_265', 'role': 'Data Scientist'}]
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in Team_1 works on NLP?
+INFO:root:Question: Who in Team_1 works on NLP?, Answer: Person_265 (Data Scientist) is part of Team_1 and works on Natural Language Processing (NLP).
+INFO:root:Generated answer: Person_265 (Data Scientist) is part of Team_1 and works on Natural Language Processing (NLP).
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:57:31] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:57:31] "GET /static/kg_viz.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 00:57:31] "[33mGET /static/lib/bindings/utils.js HTTP/1.1[0m" 404 -
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Found 12 experts
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Found 12 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in AIResearchTeam works on DeepLearning?
+INFO:root:Question: Who in AIResearchTeam works on DeepLearning?, Answer: Based on the context, the individuals listed as DevOps Engineers and Data Analysts seem to work primarily in research roles within AIResearchTeam. 
+
+- Cassandra Harrell is mentioned as an ML Engineer.
+- Aimee Turner is a ML Engineer.
+
+However, it's not explicitly stated that they work exclusively on DeepLearning or DeepLearning-related projects within AIResearchTeam.
+INFO:root:Starting Flask app
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.95:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Checking visualization: static/kg_viz.html exists=False
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 09:44:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 09:44:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Checking visualization: static/kg_viz.html exists=False
+INFO:root:Received query: question= Who in AIResearchTeam works on DeepLearning?, team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Found 12 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question:  Who in AIResearchTeam works on DeepLearning?
+INFO:root:Question:  Who in AIResearchTeam works on DeepLearning?, Answer: Based on the context, the individuals mentioned work as follows:
+
+- Cassandra Harrell is listed as an ML Engineer.
+- Cynthia Haas is also listed as a DevOps Engineer.
+
+However, there are no direct mentions of Aimee Turner or Dawn Summers working in AIResearchTeam specifically on DeepLearning.
+INFO:root:Generated answer: Based on the context, the individuals mentioned work as follows:
+
+- Cassandra Harrell is listed as an ML Engineer.
+- Cynthia Haas is also listed as a DevOps Engineer.
+
+However, there are no direct mentions of Aimee Turner or Dawn Summers working in AIResearchTeam specifically on DeepLearning.
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 09:44:32] "POST / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Checking visualization: static/kg_viz.html exists=False
+INFO:root:Received query: question= Who in AIResearchTeam works on DeepLearning?, team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Found 12 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question:  Who in AIResearchTeam works on DeepLearning?
+INFO:root:Question:  Who in AIResearchTeam works on DeepLearning?, Answer: Based on the context, the individuals listed work on the AIResearchTeam, specifically in the areas of:
+
+* ML Engineer: Cassandra Harrell
+* DevOps Engineer: Cynthia Haas
+* Data Analyst: Jeanette Harrison
+* Product Manager: Jesse Perry and Dawn Summers (both mentioned as part of the AIResearchTeam)
+
+These roles suggest that they are involved in DeepLearning work within the team.
+INFO:root:Generated answer: Based on the context, the individuals listed work on the AIResearchTeam, specifically in the areas of:
+
+* ML Engineer: Cassandra Harrell
+* DevOps Engineer: Cynthia Haas
+* Data Analyst: Jeanette Harrison
+* Product Manager: Jesse Perry and Dawn Summers (both mentioned as part of the AIResearchTeam)
+
+These roles suggest that they are involved in DeepLearning work within the team.
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 09:45:38] "POST / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.95:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Checking visualization: src/static/kg_viz.html exists=True
+INFO:root:Received query: question= Who in AIResearchTeam works on DeepLearning?, team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Found 12 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question:  Who in AIResearchTeam works on DeepLearning?
+INFO:root:Question:  Who in AIResearchTeam works on DeepLearning?, Answer: Based on the provided context, the following individuals work on Deep Learning within the AIResearchTeam:
+
+1. Cassandra Harrell (ML Engineer, Engineering) - She is listed as working on ML and Deep Learning.
+2. Aimee Turner (ML Engineer, Research) - She is also listed as working on ML and Deep Learning.
+
+These two individuals are directly associated with deep learning work in the provided context.
+INFO:root:Generated answer: Based on the provided context, the following individuals work on Deep Learning within the AIResearchTeam:
+
+1. Cassandra Harrell (ML Engineer, Engineering) - She is listed as working on ML and Deep Learning.
+2. Aimee Turner (ML Engineer, Research) - She is also listed as working on ML and Deep Learning.
+
+These two individuals are directly associated with deep learning work in the provided context.
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 09:46:38] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 09:46:38] "GET /static/kg_viz.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 09:46:38] "[33mGET /static/lib/bindings/utils.js HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Received query: question= Who in AIResearchTeam works on DeepLearning?, team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Found 12 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question:  Who in AIResearchTeam works on DeepLearning?
+INFO:root:Question:  Who in AIResearchTeam works on DeepLearning?, Answer: Based on the provided information, I can answer your question as follows:
+
+The individuals mentioned who work on Deep Learning are:
+
+1. Cassandra Harrell
+2. Cynthia Haas
+
+These two engineers are explicitly listed as working on Deep Learning within the AIResearchTeam.
+INFO:root:Starting KG visualization for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 14 nodes to visualization
+INFO:root:Visualization saved to static/kg_viz_AIResearchTeam_DeepLearning.html
+INFO:root:Generated answer: Based on the provided information, I can answer your question as follows:
+
+The individuals mentioned who work on Deep Learning are:
+
+1. Cassandra Harrell
+2. Cynthia Haas
+
+These two engineers are explicitly listed as working on Deep Learning within the AIResearchTeam., viz: kg_viz_AIResearchTeam_DeepLearning.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:32:02] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:32:02] "[33mGET /static/kg_viz_AIResearchTeam_DeepLearning.html HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Received query: question= Who in AIResearchTeam works on DeepLearning?, team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Found 12 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question:  Who in AIResearchTeam works on DeepLearning?
+INFO:root:Question:  Who in AIResearchTeam works on DeepLearning?, Answer: Based on the context, we can identify the individuals who work on DeepLearning within the AIResearchTeam:
+
+- Cassandra Harrell (ML Engineer, Engineering) and Aimee Turner (ML Engineer, Research) are mentioned as working on ML.
+
+However, there is no direct mention of Cassandra and Aimee working on DeepLearning specifically. It's possible they might be involved in related areas or tasks but not exclusively on DeepLearning.
+
+The correct answer would be:
+
+- Cassandra Harrell (ML Engineer, Engineering)
+- Aimee Turner (ML Engineer, Research)
+INFO:root:Starting KG visualization for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 14 nodes to visualization
+INFO:root:Visualization saved to static/kg_viz.html
+INFO:root:Generated answer: Based on the context, we can identify the individuals who work on DeepLearning within the AIResearchTeam:
+
+- Cassandra Harrell (ML Engineer, Engineering) and Aimee Turner (ML Engineer, Research) are mentioned as working on ML.
+
+However, there is no direct mention of Cassandra and Aimee working on DeepLearning specifically. It's possible they might be involved in related areas or tasks but not exclusively on DeepLearning.
+
+The correct answer would be:
+
+- Cassandra Harrell (ML Engineer, Engineering)
+- Aimee Turner (ML Engineer, Research), viz: kg_viz.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:33:00] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:33:01] "[36mGET /static/kg_viz.html HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:33:01] "[33mGET /static/lib/bindings/utils.js HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Received query: question=Who in AIResearchTeam works on DeepLearning?, team=AIResearchTeam, skill=DeepLeaning
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLeaning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLeaning
+INFO:root:Found 0 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in AIResearchTeam works on DeepLearning?
+INFO:root:Question: Who in AIResearchTeam works on DeepLearning?, Answer: I can't provide personal information about current employees or their roles within a company. Is there anything else I can help you with?
+INFO:root:Starting KG visualization for team=AIResearchTeam, skill=DeepLeaning
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 0 nodes to visualization
+INFO:root:Visualization saved to src/static/kg_viz.html
+INFO:root:Generated answer: I can't provide personal information about current employees or their roles within a company. Is there anything else I can help you with?, viz: src/kg_viz.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:34:17] "POST / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.95:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Received query: question=Who in AIResearchTeam works on DeepLearning?, team=AIResearchTeam, skill=DeepLeaning
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLeaning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLeaning
+INFO:root:Found 0 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in AIResearchTeam works on DeepLearning?
+INFO:root:Question: Who in AIResearchTeam works on DeepLearning?, Answer: I can't assist with that.
+INFO:root:Starting KG visualization for team=AIResearchTeam, skill=DeepLeaning
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 0 nodes to visualization
+INFO:root:Visualization saved to src/static/kg_viz.html
+INFO:root:Generated answer: I can't assist with that., viz: src/kg_viz.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:35:40] "POST / HTTP/1.1" 200 -
+INFO:root:Received query: question= Who in AIResearchTeam works on DeepLearning, team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Found 12 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question:  Who in AIResearchTeam works on DeepLearning
+INFO:root:Question:  Who in AIResearchTeam works on DeepLearning, Answer: Based on the context provided, we can infer that Cassandra Harrell and Aimee Turner are the individuals who work on Deep Learning.
+INFO:root:Starting KG visualization for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 14 nodes to visualization
+INFO:root:Visualization saved to src/static/kg_viz.html
+INFO:root:Generated answer: Based on the context provided, we can infer that Cassandra Harrell and Aimee Turner are the individuals who work on Deep Learning., viz: src/kg_viz.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:37:48] "POST / HTTP/1.1" 200 -
+INFO:root:Received query: question= Who in AIResearchTeam works on DeepLearning, team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Found 12 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question:  Who in AIResearchTeam works on DeepLearning
+INFO:root:Question:  Who in AIResearchTeam works on DeepLearning, Answer: Based on the context, it appears that Aimee Turner and Dawn Summers work on Deep Learning.
+INFO:root:Starting KG visualization for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 14 nodes to visualization
+INFO:root:Visualization saved to src/static/kg_viz.html
+INFO:root:Generated answer: Based on the context, it appears that Aimee Turner and Dawn Summers work on Deep Learning., viz: src/kg_viz.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:39:34] "POST / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Received query: question= Who in AIResearchTeam works on DeepLearning, team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Found 12 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question:  Who in AIResearchTeam works on DeepLearning
+INFO:root:Question:  Who in AIResearchTeam works on DeepLearning, Answer: Based on the context, I can answer that Cynthia Haas and Cassandra Harrell work on Deep Learning.
+INFO:root:Starting KG visualization for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 14 nodes to visualization
+INFO:root:Visualization saved to src/static/kg_viz.html
+INFO:root:Generated answer: Based on the context, I can answer that Cynthia Haas and Cassandra Harrell work on Deep Learning., viz: src/kg_viz.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:40:44] "POST / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.95:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Received query: question= Who in AIResearchTeam works on DeepLearning, team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Found 12 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question:  Who in AIResearchTeam works on DeepLearning
+INFO:root:Question:  Who in AIResearchTeam works on DeepLearning, Answer: Based on the context, the individuals listed as working in the AIResearchTeam are:
+
+1. Cynthia Haas - DevOps Engineer
+2. Aimee Turner - ML Engineer (Note: This is a more accurate representation of who works on Deep Learning)
+
+The other individuals mentioned work in different roles within the team or organization that may not be directly involved in DeepLearning, such as Operations, Product, and Research teams.
+
+So, to answer your question:
+
+- Cynthia Haas
+- Aimee Turner
+INFO:root:Starting KG visualization for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 14 nodes to visualization
+INFO:root:Visualization saved to src/static/kg_viz.html
+INFO:root:Generated answer: Based on the context, the individuals listed as working in the AIResearchTeam are:
+
+1. Cynthia Haas - DevOps Engineer
+2. Aimee Turner - ML Engineer (Note: This is a more accurate representation of who works on Deep Learning)
+
+The other individuals mentioned work in different roles within the team or organization that may not be directly involved in DeepLearning, such as Operations, Product, and Research teams.
+
+So, to answer your question:
+
+- Cynthia Haas
+- Aimee Turner, viz: src/kg_viz.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:42:23] "POST / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Received query: question= Who in AIResearchTeam works on DeepLearning, team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Found 12 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question:  Who in AIResearchTeam works on DeepLearning
+INFO:root:Question:  Who in AIResearchTeam works on DeepLearning, Answer: Based on the context, the individuals working on DeepLearning within the AIResearchTeam are:
+
+1. Aimee Turner (ML Engineer, Research) - She is listed as part of the ML team.
+2. Cassandra Harrell (ML Engineer, Engineering) and 
+3. Dawn Summers (Product Manager, Operations)
+INFO:root:Starting KG visualization for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 14 nodes to visualization
+INFO:root:Visualization saved to src/static/kg_viz.html
+INFO:root:Generated answer: Based on the context, the individuals working on DeepLearning within the AIResearchTeam are:
+
+1. Aimee Turner (ML Engineer, Research) - She is listed as part of the ML team.
+2. Cassandra Harrell (ML Engineer, Engineering) and 
+3. Dawn Summers (Product Manager, Operations), viz: src/static/kg_viz.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:43:49] "POST / HTTP/1.1" 200 -
+INFO:root:Received query: question=Who in AIResearchTeam works on DeepLearning?, team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Found 12 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in AIResearchTeam works on DeepLearning?
+INFO:root:Question: Who in AIResearchTeam works on DeepLearning?, Answer: Based on the context provided, the individuals who work on DeepLearning are:
+
+1. Cassandra Harrell (ML Engineer, Engineering)
+2. Aimee Turner (ML Engineer, Research)
+INFO:root:Starting KG visualization for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 14 nodes to visualization
+INFO:root:Visualization saved to src/static/kg_viz.html
+INFO:root:Generated answer: Based on the context provided, the individuals who work on DeepLearning are:
+
+1. Cassandra Harrell (ML Engineer, Engineering)
+2. Aimee Turner (ML Engineer, Research), viz: src/static/kg_viz.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:44:48] "POST / HTTP/1.1" 200 -
+INFO:root:Received query: question=Who in AIResearchTeam works on DeepLearning?, team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Found 12 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in AIResearchTeam works on DeepLearning?
+INFO:root:Question: Who in AIResearchTeam works on DeepLearning?, Answer: Based on the provided context, it appears that Dawn Summers is the only one who directly works on DeepLearning within AIResearchTeam.
+INFO:root:Starting KG visualization for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 14 nodes to visualization
+INFO:root:Visualization saved to src/static/kg_viz.html
+INFO:root:Generated answer: Based on the provided context, it appears that Dawn Summers is the only one who directly works on DeepLearning within AIResearchTeam., viz: src/static/kg_viz.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:47:16] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:47:16] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:47:16] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:47:16] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=yrpXNmahldZHRKSdM0Hk HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:47:17] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:root:Received query: question=Who in AIResearchTeam works on DeepLearning?, team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Found 12 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in AIResearchTeam works on DeepLearning?
+INFO:root:Question: Who in AIResearchTeam works on DeepLearning?, Answer: According to the context, the following individuals work on Deep Learning:
+
+1. Cassandra Harrell (ML Engineer, Engineering) - She is specifically mentioned as working on Deep Learning.
+2. Aimee Turner (ML Engineer, Research) - Although not explicitly stated that she works on Deep Learning, it can be inferred from her role as a researcher in AIResearchTeam.
+
+The other individuals listed do not appear to work directly on Deep Learning.
+INFO:root:Starting KG visualization for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 14 nodes to visualization
+INFO:root:Visualization saved to src/static/kg_viz.html
+INFO:root:Generated answer: According to the context, the following individuals work on Deep Learning:
+
+1. Cassandra Harrell (ML Engineer, Engineering) - She is specifically mentioned as working on Deep Learning.
+2. Aimee Turner (ML Engineer, Research) - Although not explicitly stated that she works on Deep Learning, it can be inferred from her role as a researcher in AIResearchTeam.
+
+The other individuals listed do not appear to work directly on Deep Learning., viz: src/static/kg_viz.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:48:07] "POST / HTTP/1.1" 200 -
+INFO:root:Received query: question=Who in AIResearchTeam works on DeepLearning?, team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Found 12 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in AIResearchTeam works on DeepLearning?
+INFO:root:Question: Who in AIResearchTeam works on DeepLearning?, Answer: Based on the context, we can see that the following individuals work on Deep Learning:
+
+1. Cassandra Harrell (ML Engineer, Engineering) - She is listed under ML Engineers, which implies she works on Machine Learning.
+
+2. Aimee Turner (ML Engineer, Research) - Similar to Cassandra, her role suggests she works on Machine Learning.
+
+3. Dawn Summers (Product Manager, Operations) - As a Product Manager in the AIResearchTeam, Dawn likely oversees projects related to Deep Learning and other AI-related initiatives within the team.
+INFO:root:Starting KG visualization for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 14 nodes to visualization
+INFO:root:Visualization saved to src/static/kg_viz.html
+INFO:root:Generated answer: Based on the context, we can see that the following individuals work on Deep Learning:
+
+1. Cassandra Harrell (ML Engineer, Engineering) - She is listed under ML Engineers, which implies she works on Machine Learning.
+
+2. Aimee Turner (ML Engineer, Research) - Similar to Cassandra, her role suggests she works on Machine Learning.
+
+3. Dawn Summers (Product Manager, Operations) - As a Product Manager in the AIResearchTeam, Dawn likely oversees projects related to Deep Learning and other AI-related initiatives within the team., viz: src/static/kg_viz.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:48:50] "POST / HTTP/1.1" 200 -
+INFO:root:Starting Flask app
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.95:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Received query: question=Who in AIResearchTeam works on DeepLearning?, team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Found 12 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in AIResearchTeam works on DeepLearning?
+INFO:root:Question: Who in AIResearchTeam works on DeepLearning?, Answer: Based on the context provided, the following individuals work on Deep Learning within AIResearchTeam:
+
+1. Cassandra Harrell - ML Engineer
+2. Cynthia Haas - DevOps Engineer (listed as Research, but likely working on specific AI projects including Deep Learning)
+
+The other individuals mentioned do not appear to be directly involved in Deep Learning research or development.
+INFO:root:Starting KG visualization for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 14 nodes to visualization
+INFO:root:Visualization saved to src/static/kg_viz.html
+INFO:root:Generated answer: Based on the context provided, the following individuals work on Deep Learning within AIResearchTeam:
+
+1. Cassandra Harrell - ML Engineer
+2. Cynthia Haas - DevOps Engineer (listed as Research, but likely working on specific AI projects including Deep Learning)
+
+The other individuals mentioned do not appear to be directly involved in Deep Learning research or development., viz: src/static/kg_viz.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:52:17] "POST / HTTP/1.1" 200 -
+INFO:root:Starting Flask app
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.95:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Received query: question=Who in AIResearchTeam works on DeepLearning?, team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Found 12 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in AIResearchTeam works on DeepLearning?
+INFO:root:Question: Who in AIResearchTeam works on DeepLearning?, Answer: Based on the context, it appears that Cassandra Harrell (ML Engineer, Engineering) and Aimee Turner (ML Engineer, Research) are both listed as working on Deep Learning.
+INFO:root:Starting KG visualization for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 14 nodes to visualization
+INFO:root:Visualization saved to src/static/kg_viz.html
+INFO:root:Generated answer: Based on the context, it appears that Cassandra Harrell (ML Engineer, Engineering) and Aimee Turner (ML Engineer, Research) are both listed as working on Deep Learning., viz: src/static/kg_viz.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:53:18] "POST / HTTP/1.1" 200 -
+INFO:root:Received query: question=Who in AIResearchTeam works on DeepLearning?, team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Found 12 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in AIResearchTeam works on DeepLearning?
+INFO:root:Question: Who in AIResearchTeam works on DeepLearning?, Answer: Based on the context, it appears that Dawn Summers and Aimee Turner are the individuals working on Deep Learning within AIResearchTeam.
+INFO:root:Starting KG visualization for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 14 nodes to visualization
+INFO:root:Visualization saved to src/static/kg_viz.html
+INFO:root:Generated answer: Based on the context, it appears that Dawn Summers and Aimee Turner are the individuals working on Deep Learning within AIResearchTeam., viz: src/static/kg_viz.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:54:19] "POST / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.95:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Received query: question=Who in AIResearchTeam works on DeepLearning?, team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Found 12 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in AIResearchTeam works on DeepLearning?
+INFO:root:Question: Who in AIResearchTeam works on DeepLearning?, Answer: Based on the provided context, the following individuals work on Deep Learning within the AIResearchTeam:
+
+1. Cassandra Harrell
+2. Aimee Turner
+3. Dawn Summers 
+4. Lindsay Martinez
+INFO:root:Starting KG visualization for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 14 nodes to visualization
+INFO:root:Visualization saved to src/static/kg_viz.html
+INFO:root:Generated answer: Based on the provided context, the following individuals work on Deep Learning within the AIResearchTeam:
+
+1. Cassandra Harrell
+2. Aimee Turner
+3. Dawn Summers 
+4. Lindsay Martinez, viz: src/static/kg_viz.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:55:36] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:55:37] "[33mGET /static/src/static/kg_viz.html HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.95:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Received query: question=Who in AIResearchTeam works on DeepLearning?, team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Found 12 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in AIResearchTeam works on DeepLearning?
+INFO:root:Question: Who in AIResearchTeam works on DeepLearning?, Answer: Based on the context, the individuals listed below work on Deep Learning:
+
+1. Cassandra Harrell (ML Engineer, Engineering) - She is mentioned as working on ML.
+2. Aimee Turner (ML Engineer, Research) - This appears to be a typo, and she may actually be working on AI.
+
+So, the answer would be: Cassandra Harrell and Aimee Turner.
+INFO:root:Starting KG visualization for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 14 nodes to visualization
+INFO:root:Visualization saved to src/static/kg_viz.html
+INFO:root:Generated answer: Based on the context, the individuals listed below work on Deep Learning:
+
+1. Cassandra Harrell (ML Engineer, Engineering) - She is mentioned as working on ML.
+2. Aimee Turner (ML Engineer, Research) - This appears to be a typo, and she may actually be working on AI.
+
+So, the answer would be: Cassandra Harrell and Aimee Turner., viz: src/static/kg_viz.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:56:25] "POST / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Received query: question=Who in AIResearchTeam works on DeepLearning?, team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Found 12 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in AIResearchTeam works on DeepLearning?
+INFO:root:Question: Who in AIResearchTeam works on DeepLearning?, Answer: Based on the context, we can infer that the person working on Deep Learning at AIResearchTeam is Lindsay Martinez. She is a Data Scientist and Researcher with research experience in AIResearchTeam.
+INFO:root:Starting KG visualization for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 14 nodes to visualization
+INFO:root:Visualization saved to src/static/kg_viz.html
+INFO:root:Generated answer: Based on the context, we can infer that the person working on Deep Learning at AIResearchTeam is Lindsay Martinez. She is a Data Scientist and Researcher with research experience in AIResearchTeam., viz: src/static/kg_viz.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:56:52] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:56:53] "[33mGET /static/kg_viz_path.html HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Received query: question=Who in AIResearchTeam works on DeepLearning?, team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Found 12 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in AIResearchTeam works on DeepLearning?
+INFO:root:Question: Who in AIResearchTeam works on DeepLearning?, Answer: Based on the provided context, the following individuals work on Deep Learning within the AIResearchTeam:
+
+- Cassandra Harrell (ML Engineer, Engineering)
+- Aimee Turner (ML Engineer, Research)
+INFO:root:Starting KG visualization for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 14 nodes to visualization
+INFO:root:Visualization saved to src/static/kg_viz.html
+INFO:root:Generated answer: Based on the provided context, the following individuals work on Deep Learning within the AIResearchTeam:
+
+- Cassandra Harrell (ML Engineer, Engineering)
+- Aimee Turner (ML Engineer, Research), viz: src/static/kg_viz.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:57:19] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:57:20] "GET /static/kg_viz.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:57:20] "[33mGET /static/lib/bindings/utils.js HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:werkzeug: * Detected change in '/Users/him/Documents/AIFA Labs/GraphRAGDemo/src/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 953-686-428
+INFO:root:Received query: question=Who in AIResearchTeam works on DeepLearning?, team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Found 12 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in AIResearchTeam works on DeepLearning?
+INFO:root:Question: Who in AIResearchTeam works on DeepLearning?, Answer: Based on the context, I can answer your question. The individuals mentioned who work on DeepLearning are:
+
+1. Cassandra Harrell (ML Engineer, Engineering) - She is listed as a member of the AIResearchTeam working on DeepLearning.
+2. Ian Torres (DevOps Engineer, Engineering) - He works in DevOps but doesn't explicitly mention DeepLearning.
+
+I am unable to verify who else works on DeepLearning within AIResearchTeam.
+INFO:root:Starting KG visualization for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 14 nodes to visualization
+INFO:root:Visualization saved to src/static/kg_viz.html
+INFO:root:Generated answer: Based on the context, I can answer your question. The individuals mentioned who work on DeepLearning are:
+
+1. Cassandra Harrell (ML Engineer, Engineering) - She is listed as a member of the AIResearchTeam working on DeepLearning.
+2. Ian Torres (DevOps Engineer, Engineering) - He works in DevOps but doesn't explicitly mention DeepLearning.
+
+I am unable to verify who else works on DeepLearning within AIResearchTeam., viz: src/static/kg_viz.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:58:00] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:58:01] "GET /static/kg_viz.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:58:01] "[33mGET /static/lib/bindings/utils.js HTTP/1.1[0m" 404 -
+INFO:root:Received query: question=Who in AIResearchTeam works on DeepLearning?, team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Found 12 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in AIResearchTeam works on DeepLearning?
+INFO:root:Question: Who in AIResearchTeam works on DeepLearning?, Answer: According to the context, the following individuals work on Deep Learning within the AIResearchTeam:
+
+1. Cassandra Harrell (ML Engineer, Engineering) - mentioned as working on "DeepLearning"
+2. Aimee Turner (ML Engineer, Research)
+INFO:root:Starting KG visualization for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 14 nodes to visualization
+INFO:root:Visualization saved to src/static/kg_viz.html
+INFO:root:Generated answer: According to the context, the following individuals work on Deep Learning within the AIResearchTeam:
+
+1. Cassandra Harrell (ML Engineer, Engineering) - mentioned as working on "DeepLearning"
+2. Aimee Turner (ML Engineer, Research), viz: src/static/kg_viz.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:58:42] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:58:42] "GET /static/kg_viz.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 11:58:42] "[33mGET /static/lib/bindings/utils.js HTTP/1.1[0m" 404 -
+INFO:root:Received query: question=Who in AIResearchTeam works on DeepLearning?, team=CloudDevTeam, skill=Azure
+INFO:root:Querying KG for team=CloudDevTeam, skill=Azure
+INFO:root:Querying knowledge graph for team=CloudDevTeam, skill=Azure
+INFO:root:Found 10 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in AIResearchTeam works on DeepLearning?
+INFO:root:Question: Who in AIResearchTeam works on DeepLearning?, Answer: Based on the context, the individuals who work on DeepLearning are:
+
+- Vincent Novak
+- Joanna Pacheco
+- Elizabeth Kelley
+
+These three individuals appear to be part of the AIResearchTeam and are involved in working with DeepLearning.
+INFO:root:Starting KG visualization for team=CloudDevTeam, skill=Azure
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 12 nodes to visualization
+INFO:root:Visualization saved to src/static/kg_viz.html
+INFO:root:Generated answer: Based on the context, the individuals who work on DeepLearning are:
+
+- Vincent Novak
+- Joanna Pacheco
+- Elizabeth Kelley
+
+These three individuals appear to be part of the AIResearchTeam and are involved in working with DeepLearning., viz: src/static/kg_viz.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 12:00:29] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 12:00:29] "GET /static/kg_viz.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 12:00:29] "[33mGET /static/lib/bindings/utils.js HTTP/1.1[0m" 404 -
+INFO:root:Received query: question=Who in CloudDevTeam works on Azure?, team=CloudDevTeam, skill=Azure
+INFO:root:Querying KG for team=CloudDevTeam, skill=Azure
+INFO:root:Querying knowledge graph for team=CloudDevTeam, skill=Azure
+INFO:root:Found 10 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in CloudDevTeam works on Azure?
+INFO:root:Question: Who in CloudDevTeam works on Azure?, Answer: Based on the context, the answer is Pamela Diaz and Robert Harrison. They are both listed as ML Engineers working on Azure in the team.
+INFO:root:Starting KG visualization for team=CloudDevTeam, skill=Azure
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 12 nodes to visualization
+INFO:root:Visualization saved to src/static/kg_viz.html
+INFO:root:Generated answer: Based on the context, the answer is Pamela Diaz and Robert Harrison. They are both listed as ML Engineers working on Azure in the team., viz: src/static/kg_viz.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 12:01:01] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 12:01:02] "GET /static/kg_viz.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 12:01:02] "[33mGET /static/lib/bindings/utils.js HTTP/1.1[0m" 404 -
+INFO:root:Starting Flask app
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.95:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-398-239
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 13:42:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Starting Flask app
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.95:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting Flask app
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-398-239
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 14:46:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 14:46:19] "[36mGET /static/kg_viz.html HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 14:46:20] "[33mGET /static/lib/bindings/utils.js HTTP/1.1[0m" 404 -
+INFO:root:Received query: question=Who in AIResearchTeam works on DeepLearning?, team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying KG for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Found 12 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who in AIResearchTeam works on DeepLearning?
+INFO:root:Question: Who in AIResearchTeam works on DeepLearning?, Answer: Based on the context, it appears that Aimee Turner is listed as an ML Engineer in Research and works on Deep Learning.
+INFO:root:Starting KG visualization for team=AIResearchTeam, skill=DeepLearning
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 14 nodes to visualization
+INFO:root:Visualization saved to src/static/kg_viz.html
+INFO:root:Generated answer: Based on the context, it appears that Aimee Turner is listed as an ML Engineer in Research and works on Deep Learning., viz: src/static/kg_viz.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 14:47:19] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 14:47:19] "GET /static/kg_viz.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 14:47:19] "[33mGET /static/lib/bindings/utils.js HTTP/1.1[0m" 404 -
+INFO:root:Received query: question=Who are the people who have skillset both in Python and Java, team=AIResearchTeam, skill=Python
+INFO:root:Querying KG for team=AIResearchTeam, skill=Python
+INFO:root:Querying knowledge graph for team=AIResearchTeam, skill=Python
+INFO:root:Found 11 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who are the people who have skillset both in Python and Java
+INFO:root:Question: Who are the people who have skillset both in Python and Java, Answer: Based on the context, I can provide you with the following information about the individuals with skillsets in both Python and Java:
+
+1. Cynthia Haas - DevOps Engineer, Research
+2. Cassandra Harrell - ML Engineer, Engineering
+3. Joyce Bowen - DevOps Engineer, Research
+INFO:root:Starting KG visualization for team=AIResearchTeam, skill=Python
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 13 nodes to visualization
+INFO:root:Visualization saved to src/static/kg_viz.html
+INFO:root:Generated answer: Based on the context, I can provide you with the following information about the individuals with skillsets in both Python and Java:
+
+1. Cynthia Haas - DevOps Engineer, Research
+2. Cassandra Harrell - ML Engineer, Engineering
+3. Joyce Bowen - DevOps Engineer, Research, viz: src/static/kg_viz.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 15:32:40] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 15:32:40] "GET /static/kg_viz.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 15:32:40] "[33mGET /static/lib/bindings/utils.js HTTP/1.1[0m" 404 -
+INFO:root:Received query: question=Who are the people who have skillset both in Python and Java, team=hi, skill=hi
+INFO:root:Querying KG for team=hi, skill=hi
+INFO:root:Querying knowledge graph for team=hi, skill=hi
+INFO:root:Found 0 experts
+INFO:root:Initializing LLM
+INFO:root:Running RAG for question: Who are the people who have skillset both in Python and Java
+INFO:root:Question: Who are the people who have skillset both in Python and Java, Answer: In general, there isn't a specific subset of individuals that are universally known as being skilled in both Python and Java. However, I can provide some information on how to identify professionals with this skillset.
+
+Professionals with a strong background in both Python and Java often possess the following skills:
+
+1. **Programming languages**: They have a solid understanding of both Python (e.g., data structures, object-oriented programming) and Java (e.g., object-oriented programming, multithreading).
+2. **System design**: They can design scalable, maintainable systems that incorporate both languages.
+3. **Multithreading and concurrency**: They understand the principles of concurrent programming in both languages, including threads, locks, and synchronization mechanisms.
+4. **Databases and data storage**: They have experience working with databases (e.g., MySQL, PostgreSQL) and can design efficient database schemas for Python applications.
+5. **API development**: They know how to develop RESTful APIs using either language, and understand the implications of this on system architecture and scalability.
+6. **Testing and debugging**: They have expertise in testing both languages, including unit testing, integration testing, and debugging techniques.
+7. **Networking fundamentals**: They understand the basics of networking protocols (e.g., TCP/IP) and can design network architectures for Python applications.
+
+Some examples of professionals who might possess this skillset include:
+
+1. **Backend developers**: Those working on the server-side of web applications, often using a combination of Python and Java.
+2. **Full-stack developers**: Professionals with expertise in both front-end (Python) and back-end development (Java).
+3. **DevOps engineers**: Individuals who bridge the gap between development and operations, often requiring skills in both languages to ensure efficient system deployment and maintenance.
+4. **Cloud architects**: Those responsible for designing and deploying cloud-based systems, which may involve Python and Java frameworks.
+
+Keep in mind that this is not an exhaustive list, and there are many individuals with these skills across various industries.
+INFO:root:Starting KG visualization for team=hi, skill=hi
+INFO:root:Connected to Neo4j
+INFO:root:Fetched KG data
+INFO:root:Added 0 nodes to visualization
+INFO:root:Visualization saved to src/static/kg_viz.html
+INFO:root:Generated answer: In general, there isn't a specific subset of individuals that are universally known as being skilled in both Python and Java. However, I can provide some information on how to identify professionals with this skillset.
+
+Professionals with a strong background in both Python and Java often possess the following skills:
+
+1. **Programming languages**: They have a solid understanding of both Python (e.g., data structures, object-oriented programming) and Java (e.g., object-oriented programming, multithreading).
+2. **System design**: They can design scalable, maintainable systems that incorporate both languages.
+3. **Multithreading and concurrency**: They understand the principles of concurrent programming in both languages, including threads, locks, and synchronization mechanisms.
+4. **Databases and data storage**: They have experience working with databases (e.g., MySQL, PostgreSQL) and can design efficient database schemas for Python applications.
+5. **API development**: They know how to develop RESTful APIs using either language, and understand the implications of this on system architecture and scalability.
+6. **Testing and debugging**: They have expertise in testing both languages, including unit testing, integration testing, and debugging techniques.
+7. **Networking fundamentals**: They understand the basics of networking protocols (e.g., TCP/IP) and can design network architectures for Python applications.
+
+Some examples of professionals who might possess this skillset include:
+
+1. **Backend developers**: Those working on the server-side of web applications, often using a combination of Python and Java.
+2. **Full-stack developers**: Professionals with expertise in both front-end (Python) and back-end development (Java).
+3. **DevOps engineers**: Individuals who bridge the gap between development and operations, often requiring skills in both languages to ensure efficient system deployment and maintenance.
+4. **Cloud architects**: Those responsible for designing and deploying cloud-based systems, which may involve Python and Java frameworks.
+
+Keep in mind that this is not an exhaustive list, and there are many individuals with these skills across various industries., viz: src/static/kg_viz.html
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 15:40:06] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 15:40:06] "GET /static/kg_viz.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2025 15:40:07] "[33mGET /static/lib/bindings/utils.js HTTP/1.1[0m" 404 -

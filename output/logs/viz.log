@@ -1,0 +1,5 @@
+2025-04-22 11:37:05,223 - INFO - Starting KG visualization for team=AIResearchTeam, skill=DeepLearning
+2025-04-22 11:37:05,223 - INFO - Connected to Neo4j
+2025-04-22 11:37:05,272 - INFO - Fetched KG data
+2025-04-22 11:37:05,284 - INFO - Added 14 nodes to visualization
+2025-04-22 11:37:05,292 - INFO - Visualization saved to src/static/kg_viz.html
